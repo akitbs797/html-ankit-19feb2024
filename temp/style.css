@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(161, 161, 190);
+}
+.singup{
+    /* text-align: center; */
+    height: 500px;
+    width: 360px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 8px;
+}
+h4{
+    text-align: center;
+    /* margin-top: 15px; */
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 10px;
+    font-size: 15px;
+}
+input{
+     width: 100%;
+    padding: 5px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+input[type="button"]{
+    width: 315px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(101, 101, 236);
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+}
+.already{
+    text-align: center;
+    color: rgb(39, 5, 5);
+    font-size: 15px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singin</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            border: 1px solid rgb(182, 167, 167);
+            height: 300px;
+            width: 400px;
+            margin: auto;
+            border-radius: 15px;
+            /* padding-left: 40px;
+            padding-top: 10px; */
+            padding: 40px 20px 20px 30px;
+            background-color: rgba(245, 245, 245, 0.774);
+        }
+        .domain{
+            position: relative;
+            /* top: -36px; */
+            bottom: 38px;
+        }
+        #txt{
+            font-size: 2rem;
+
+        }
+        .subbox{
+            display: inline-block;
+            /* border: 1px solid red; */
+        }
+        .empty{
+            /* background-color: green; */
+            width: 160px;
+            height: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(66, 66, 211);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: brown;
+        }
+        .box2,.email,#pass,.btn,.keepme{
+            margin-top: 10px;
+        }
+        #pass{
+            width: 100%;
+            height: 30px;
+            outline-color: skyblue;
+            outline: none;
+            
+        }
+        #pass:focus{
+            border: 3px solid skyblue;
+            outline: 5px;
+            border-radius: 5px;
+        }
+        .btn{
+            text-align: center;
+            padding: 2px;
+            background-color: #f7ca00;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+        details,summary{
+            display: inline-block;
+        }
+        /* hr{
+            color: rgba(152, 144, 144, 0.699);
+        } */
+    </style>
+</head>
+<body>
+    <center>
+    <img src="C:\Users\Ankit Pandey\Downloads\AmazonLogoForLight.png" height="80px" width="100px">
+        <span class="domain">.in</span>
+
+</center>
+    <div class="box">
+        <span id="txt">Sing In</span>
+        <div class="email">ankitbs797@gmail.com<a href="#">&nbsp;Change</a></div>
+        <div class="box2">
+        <div class="subbox"><label for="pass"><b>Password</b></label></div>
+        <div class="subbox empty"></div>
+        <div class="subbox"><a href="#">Forget Password</a></div>
+    </div>
+    <input type="password" id="pass">
+    <div class="btn">Sing In</div>
+    <div class="keepme"></div>
+        <input type="checkbox" name="" id=""> keep me singden in.
+        <details>
+            <summary>
+                <a href="#">details</a>
+            </summary>
+            Choosing keep me singned in "reduces the nummber of times you're asked to singned to keep your accont secure, you this option personal device.
+
+        </details>
+    
+    </div>
+    <div class="footer">
+        <center>
+            <br>
+            <hr width="60px" color="grey">  
+            <br><br>
+            <p>
+                <br><a href="#">Conditions of Use</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Privacy Notice</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Help</a> </p>
+            <br><p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+        </center>
+        </div>
+</body>
+</html>

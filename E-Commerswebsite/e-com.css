@@ -1,0 +1,57 @@
+
+* {
+    font-family: 'robot', sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: silver;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(14, 14, 15);
+    color: white;
+}
+
+.logo {
+    margin-left: 13px;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 13px;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    margin-inline: 20px;
+    color: white;
+}
+
+ul li a:hover,
+ul li a.active {
+    color: aqua;
+    font-weight: 600;
+}
+
+@media only screen and(mix-width:600px) {
+    nav ul {
+        display: none;
+    }
+}
+
+.icon {
+    display: none;
+    align-items: center;
+    font-size: 30px;
+}

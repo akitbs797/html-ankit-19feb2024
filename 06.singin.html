@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            /* font-family: sans-serif; */
+
+        }
+        .box{
+            border: 1px solid grey;
+            height: 300px;
+            width: 400px;
+            margin: auto;
+            border-radius: 15px;
+            /* padding-left: 50px;
+            padding-top: 10px; */
+            padding: 40px 20px 20px 30px;
+        }
+        .domain{
+            position: relative;
+            /* top: -35px; */
+            bottom: 38px;
+            
+        }
+        #txt{
+            font-size: 2rem;
+        }
+        .subbox{
+            display: inline-block;
+            
+        }
+        .empty{
+            
+            width: 160px;
+            height: 10px;
+
+        }
+        a{
+            text-decoration: none;
+            color: rgb(11,128,175)
+        }
+        a:hover{
+            text-decoration: underline;
+            color:brown;
+        }
+        .box2,.email,.btn,keepme{
+            margin-top: 15px;
+        }
+        #pass{
+            margin:5px;
+            width: 340px;
+            height: 30px;
+            outline:none;
+            
+            }
+            #pass:focus{
+                border:2px solid rgb(7,118,142);
+                outline:2px solid skyblue;
+                border:radius 10px;
+            }
+            .btn{
+                text-align: center;
+                padding: 2px;
+                background-color: yellow;
+                border-radius: 5px;
+                font-size: 18px;
+            }
+            details,summary{
+                display: inline-block;
+            }
+            /* summary{
+            list-style: none;
+            display: inline-block;
+            text-align: center;
+        } */
+        hr{
+            color: rgba(152, 144, 144, 0.699);
+        }
+
+                
+    </style>
+</head>
+<body>
+    <center>
+    <img src="c:\Users\Ankit Pandey\Downloads\AmazonLogoForLight.png"height="80px"width="100">
+    <span class="domain">.in</span>
+    </center>
+    <div class="box">
+        <span id="txt">Sing In</span>
+        <div class="email">ankitbs797@gmail.com<a href="#"> change</a>
+        <div class="box2">
+            <div class="subbox"><lable for="pass"><b>Password</b></lable</div>
+            <div class="subbox empty"></div>
+            <div class="subbox"><a href="#">Forget Password</a></div>
+        </div>
+        <input type="password" id="pass">
+        <div class="btn">Sing in</div>
+        <div class= "keepme"></div>
+        <input type="checkbox" name="" id=""> keep me singned in.
+
+        <details>
+            <summary>
+             <a href="#">details</a>
+            </summary>
+            Choosing keep me singned in "reduces the nummber of times you're asked to singned to keep your accont secure, you this option personal device.
+        </details>
+        </div>
+        </div>
+        
+        <div class="footer">
+            <center>
+                <br>
+                <hr width="40px" color="grey">  
+                <br><br>
+                <p>
+                    <br><a href="#">Conditions of Use</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">Privacy Notice</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">Help</a> </p>
+                <br><p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+            </center>
+            </div>
+        
+        <!-- <div class="footer">
+            <center>
+            <p><a href="">condition of </a><a href="">privecy notice</a><a href="">notice help</a></p>
+            <p>1996-2023,Amazon.com,Ink.or its affiliates</p>
+        </center> -->
+</body>
+</html>
+<!-- <div class="footer">
+    <center>
+        <br><br>
+        <hr width="40%">
+        <br>
+        <p>
+            <br><a href="">Conditions of Use</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="">Privacy Notice</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="">Help</a> </p>
+        <br><p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+    </center> -->

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //console.log (math.pi)
+        //dcument.write(math.pi);
+        //console.log(math.pow(5,3));
+        //key and  value pair
+        let person={
+            id:100,
+            name:"ankit",
+            gender:"male",
+            phone:8687140372,
+            25:"twentyfive",
+            skills:["c","mysql","webdesinig"],
+            "address":{
+                city:"noida",
+                pin:201301,
+                country: "india"
+            } 
+        };
+        // console.log(person);
+        // document.write(person);
+        // document.write(person.name);
+        // document.write(person["phone"]);
+        // document.write(person[25]);
+        for(let key in person)
+        {
+            document.write(key+":"+person[key]+"<br>");
+        }
+        // document.write(person["skills"][2]);
+        // document.write(person.address["pin"]);
+        // document.write(person.address.country);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
